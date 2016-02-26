@@ -1,0 +1,10 @@
+h3.post-title, .comments h4 {
+  font: normal normal 22px 'Trebuchet MS',Trebuchet,Verdana,sans-serif;
+margin: .75em 0 0;
+background: url(http://i593.photobucket.com/albums/tt12/papos2121/h3_zpsinyxalwk.png) no-repeat;
+padding: 28px;
+margin-left: -51px;
+margin-right: -50px;
+text-align: center;
+margin-top: 6px;
+}

@@ -1,0 +1,110 @@
+<data:post.body/>
+
+<b:if cond='data:blog.pageType == &quot;static_page&quot;'>
+<data:post.body/>
+<b:else/>
+<b:if cond='data:blog.pageType != &quot;item&quot;'>
+<b:if cond='data:post.snippet'>
+<b:if cond='data:post.thumbnailUrl'>
+<div class='Image thumb'>
+<a expr:href='data:post.url' expr:title='data:post.title'><img alt='thumbnail' class='post-thumbnail' expr:src='data:post.thumbnailUrl'/></a>
+</div>
+<b:else/>
+    <a expr:href='data:post.url' expr:title='data:post.title'><img alt='thumbnail' class='post-thumbnail' src='http://3.bp.blogspot.com/-o8PgBqd120U/UJSsVLA4udI/AAAAAAAAAgs/FJnTxQc8kuI/s0/no-image.png'/></a>
+</b:if>
+<data:post.snippet/>
+<b:if cond='data:post.jumpLink != data:post.hasJumpLink'>
+<div class='jump-link' style='float:right'>
+<a expr:href='data:post.url' expr:title='data:post.title'>Readmore &#187;</a>
+</div></b:if><b:else/>
+<data:post.body/></b:if><b:else/>
+<data:post.body/></b:if></b:if>   
+
+]]></b:skin>
+
+.post-thumbnail {width:72px; height:72px; float:left; margin:0px 10px 0px 0px;}
+.rmlink a        
+{color: #fff;
+border: 0;
+float: right;
+text-decoration: none;
+border-radius: 15px;
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+font-weight: bold;
+background: url(http://i593.photobucket.com/albums/tt12/papos2121/500_F_85968056_o7Kd7tVBC8kFRRk1jvdUaWrV7fcEOzZ2_zpsianxvmh0.png) no-repeat center;
+padding: 35px;
+background-size: 135%;
+padding-top: 50px;
+background-position-y: 25px;
+padding-bottom: 50px;
+margin-top: -15px;
+margin-bottom: -50px;}
+
+.rmlink a:hover  {color: #fff;
+border: 0;
+float: right;
+text-decoration: none;
+border-radius: 15px;
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+font-weight: bold;
+background: url(http://i593.photobucket.com/albums/tt12/papos2121/dfdsf_zps2bteikzy.png) no-repeat center;
+padding: 35px;
+background-size: 135%;
+padding-top: 50px;
+background-position-y: 25px;
+padding-bottom: 50px;
+margin-top: -15px;
+margin-bottom: -50px;}
+
+.rmlink a:active {background:#fc3;color:#000;}
+
+div[id^="summary"] {
+  text-align:justify;
+}
+
+
+
+
+<div class='rmlink'> = <div class='jump-link' style='float:right'> ( GANTI ) 
+1.	background: #939;
+2.	 color: #fff;
+3.	 padding: 2px 15px 3px;
+4.	 margin: 15px 0 0;
+5.	 border: 0;
+6.	 float: right;
+7.	 text-decoration: none;
+8.	 border-radius: 15px;
+9.	-moz-border-radius: 15px;
+10.	 -webkit-border-radius: 15px;
+11.	 font-weight: bold;
+}
+
+
+h3.post-title, .comments h4 { > Judul bewarna ) 
+font: normal normal 22px 'Trebuchet MS',Trebuchet,Verdana,sans-serif;
+margin: .75em 0 0;
+text-shadow: 0 0 15px #242727;
+margin: -1px 0 0;
+padding: 5px 30px;
+background: #939;
+box-shadow: 0px 0px 5px 3px #FFFFFF;
+border-radius: 8px 8px 8px 8px;
+}
+
+.post-footer {
+margin: 20px -2px 0;
+    padding: 5px 10px;
+    color: #666666;
+    background-color: #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+    line-height: 1.6;
+    font-size: 90%;
+    background: rgb(255, 255, 255);
+    border: 3px solid #00E9FF;
+    border-radius: 23px 2px 33px 2px;
+}
+}
+
+

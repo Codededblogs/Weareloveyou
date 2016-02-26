@@ -1,0 +1,19 @@
+<style>
+#Buffer{
+background: url(http://i593.photobucket.com/albums/tt12/papos2121/jam_zpsovaziffq.png) no-repeat;
+padding: 100px;
+color: transparent;
+background-size: 100%;
+margin-bottom: -118px;
+padding-bottom: 140px;
+margin-top: -20px; }
+
+#Incorect {
+margin-left: 33px;
+margin-top: -210px;
+padding-bottom: 25px;
+}
+</style>
+
+<div id="Buffer"></div>
+<div id="Incorect"><div style="margin: 30px 27px 1px; display: inline-block; text-align: center; width: 128px;"><noscript><div style="display: inline-block; padding: 2px 4px; margin: 0px 0px 5px; border: 1px solid rgb(204, 204, 204); text-align: center; background-color: transparent;"><a href="http://localtimes.info/Asia/Indonesia/Jakarta/" style="text-decoration: none; font-size: 13px; color: rgb(0, 0, 0);"><img src="http://localtimes.info/images/countries/id.png" ="" border="0=&quot;&quot;" style="border:0;margin:0;padding:0" ="" /> Jakarta</a></div></noscript><script type="text/javascript" src="http://localtimes.info/clock.php?continent=Asia&country=Indonesia&city=Jakarta&cp1_Hex=000000&cp2_Hex=FFFFFF&cp3_Hex=ffffff&fwdt=128&ham=1&hbg=1&hfg=1&sid=0&mon=0&wek=0&wkf=0&sep=0&widget_number=100"></script></div></div>

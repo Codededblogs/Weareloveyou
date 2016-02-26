@@ -1,0 +1,62 @@
+
+
+.main-inner .sidebar .widget h2 {
+width: 235px;
+position: relative;
+color: #fff;
+padding: 21px 5px;
+margin: 0;
+left: 0px;
+z-index: 100;
+background: url(http://i593.photobucket.com/albums/tt12/papos2121/menubarfinal_zpswqi4mprx.png
+) no-repeat;
+font: bold 120%/1.4em 'Arial',Trebuchet,Arial,Verdana,Sans-serif;
+letter-spacing: 0;
+margin: 0px;
+padding-right: 60px;
+text-transform: none;
+padding-bottom: 37px;
+margin-left: -25px;
+padding-left: 40px;
+margin-bottom: -60px;
+}
+.main-inner .sidebar .widget h2:before {
+content: ' ';
+position: absolute;
+left: 280px;
+top: 100%;
+border-color: #606 transparent transparent #606;
+}
+.main-inner .sidebar .widget h2:after {
+content: ' ';
+position: absolute;
+left: 0px;
+top: 100%;
+border-width: 5px 10px;
+border-color: #606 #606 transparent transparent;
+}
+.main-inner .sidebar .widget-content {
+width:250px;
+padding: 60px 5px 5px 5px;
+margin-top:-30px;
+position: relative;
+border:5px solid #00D0ED
+background: #fff;
+color: #fff;
+font-size: 90%;
+border-radius: 10px 10px 10px 0px;
+border: 2px solid #00D0ED;
+box-shadow: 2px 0px 2px 2px black;
+background: rgba(255, 255, 255, 0.52);
+} 
+.main-inner .widget #ArchiveList {
+margin: 0px;
+}
+.main-inner .widget ul, 
+.main-inner .widget li,
+.main-inner .widget ul li,
+.main-inner .widget #ArchiveList ul.flat li {
+margin: 0px;
+padding: 2px;
+list-style: none;
+}

@@ -1,0 +1,36 @@
+.rmlink a        
+{color: #fff;
+border: 0;
+float: right;
+text-decoration: none;
+border-radius: 15px;
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+font-weight: bold;
+background: url(http://i1318.photobucket.com/albums/t652/Andrio_Pratama_Sirait/Readmore_FINAL_zps0d6b3f43.png) no-repeat center;
+padding: 35px;
+background-size: 60%;
+padding-top: 50px;
+background-position-y: 25px;
+padding-bottom: 50px;
+margin-top: -15px;
+margin-bottom: -50px;}
+
+.rmlink a:hover  {color: #fff;
+border: 0;
+float: right;
+text-decoration: none;
+border-radius: 15px;
+-moz-border-radius: 15px;
+-webkit-border-radius: 15px;
+font-weight: bold;
+background: url(http://i1318.photobucket.com/albums/t652/Andrio_Pratama_Sirait/Readmore_FINAL_A_zpsee61452f.png) no-repeat center;
+padding: 35px;
+background-size: 60%;
+padding-top: 50px;
+background-position-y: 25px;
+padding-bottom: 50px;
+margin-top: -15px;
+margin-bottom: -50px;}
+
+.rmlink a:active {background:#fc3;color:#000;}

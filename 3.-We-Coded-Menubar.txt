@@ -1,0 +1,64 @@
+<style>
+#Weloveyousmapta {
+padding: 95px;
+background: url(http://i593.photobucket.com/albums/tt12/papos2121/testmenu_zpsfrwpp7oo.png) no-repeat;
+margin-left: -205px;
+margin-top: -96px;
+margin-right: -65px;
+margin-bottom: -181px;
+padding-bottom: 180px;
+background-size: 99%;
+padding-left: 195px;
+background-position-y: 3px;
+}
+#search{
+border:1px solid #222;
+height:20px;
+width:180px;
+background:#f6f4f4;
+}
+#search input{
+color:#000000;
+border:none;
+}
+#s-m{
+font-size:11px;
+width:180px;
+padding-left:4px;
+padding-top:5px;
+margin:0;
+}
+#search-t #search{
+background-color: #FFFFFF;
+border: 1px solid #222;
+-moz-border-radius: 4px 4px 4px 4px;
+-khtml-border-radius: 4px 4px 4px 4px;
+margin-left: 687px;
+margin-top: -207px;
+padding: 2px;
+border-radius: 24px;
+padding-right: 8px;
+}
+#search-t #s-m{
+width:155px;
+padding-top:3px;
+margin-left:1px;
+}
+</style>
+
+
+<ul id="Weloveyousmapta">
+<li><a href="http://b005mptelkom.blogspot.com/">Home</a></li>
+<li><a href="http://b005mptelkom.blogspot.com/p/tentang-sma-plus-taruna-andalan.html">About School</a></li>
+<li><a href="http://malpekanbaru.co.id/">Mal Pekanbaru</a></li>
+<li><a href="http://www.telkom.co.id/">Telkom Indonesia</a></li>
+
+</ul>
+<div id='search-t'>
+<div id='search'>
+<form action='/search' method='search' target='_blank'>
+<input class='keyword' id='s-m' name='q' onblur='if (this.value == &quot;&quot;) {this.value = &quot;Cari artikel disini..&quot;;}' onfocus='if (this.value == &quot;Cari artikel disini..&quot;) {this.value = &quot;&quot;}' type='text' value='Ayo Cari disini ..'/>
+<input src='http://1.bp.blogspot.com/_C6KkooKXCEw/TIBqtV6pdmI/AAAAAAAAGyM/QUBsym_R9V0/s200/search-c.png' style='border: 0pt none ;vertical-align: top; padding-top:4px; padding-right:1px;' type='image'/>
+</form>
+</div>
+</div>
